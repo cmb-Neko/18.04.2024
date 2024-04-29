@@ -6,16 +6,11 @@ using namespace std;
 HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
 int main() {
-	cout << "To be, ";
-	SetConsoleTextAttribute(hConsole, 13);
-	cout << "or not ";
-	SetConsoleTextAttribute(hConsole, 15);
-	cout << "to be: that is the question:" << endl;
+	cout << "What we lost in the fire\nwe'll find in the ashes\nThere's something calling,\nsomething outside the herd\nI'm trying to wield my privilage\n";
+	cout << "in the service of a dream\nIt's not imposible to me that one\nmorning we'll see (we'll see)\n";
+	cout << "A new seed scattered on a level field" << endl;
+	cout << "I wanna watch the world burn for what it's done\nI wanna watch the world burn for what we've become\nI wanna watch the world burn for what it's done\n";
+	cout << "I wanna watch the world burn\nI wanna watch the world burn" << endl;
 
-	cout << "Whether ";
-	SetConsoleTextAttribute(hConsole, 14);
-	cout << "'tis nobler in the mind to suffer" << endl << "The slings and arrows of outrageous fortune," << endl;
-	cout << "Or to take arms against a sea of troubles," << endl << "And by opposing end them?" << endl;
-	
-	cout << "William Shakespeare" << endl;
+	cout << "From \"War Music\"\nBy \"Refused\"" << endl;
 }
