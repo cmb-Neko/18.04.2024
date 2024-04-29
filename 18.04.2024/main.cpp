@@ -6,18 +6,22 @@ using namespace std;
 HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
 int main() {
-	SetConsoleTextAttribute(hConsole, 4);
-	cout << "Every ";
-	SetConsoleTextAttribute(hConsole, 12);
-	cout << "hunter ";
+	cout << "Selling puppies.\n" << "Breed: Rottweiler\n" << "......" << endl;
+	cout << "Phone: 222-22-22" << endl;
+	cout << "222      |   ";
 	SetConsoleTextAttribute(hConsole, 14);
-	cout << "wants to ";
-	SetConsoleTextAttribute(hConsole, 10);
-	cout << "know ";
-	SetConsoleTextAttribute(hConsole, 11);
-	cout << "where ";
-	SetConsoleTextAttribute(hConsole, 9);
-	cout << "the pheasant ";
-	SetConsoleTextAttribute(hConsole, 13);
-	cout << "is" << endl;
+	cout << "222";
+	SetConsoleTextAttribute(hConsole, 15);
+	cout << "   |" << endl;
+	cout << "22       |   ";
+	SetConsoleTextAttribute(hConsole, 14);
+	cout << "22";
+	SetConsoleTextAttribute(hConsole, 15);
+	cout << "    |" << endl;
+	cout << "22       |   ";
+	SetConsoleTextAttribute(hConsole, 14);
+	cout << "22";
+	SetConsoleTextAttribute(hConsole, 15);
+	cout << "    |" << endl;
+	cout << "etc." << endl;
 }
